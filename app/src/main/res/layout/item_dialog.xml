@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="15dp"
+    android:layout_margin="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_sotuv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sotuchi qoshish"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_xaridor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Xaridor qoshish"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/tv_buyrtma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Buyurtma qoshish"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:visibility="gone"
+                />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edt_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Number"
+                android:visibility="gone"
+                android:textSize="20sp"
+                android:layout_margin="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textSize="20sp"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                />
+
+            <EditText
+                android:id="@+id/edt_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Price"
+                android:textSize="20sp"
+                android:inputType="number"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_sotuv"
+                android:layout_margin="5dp"
+                android:visibility="gone"
+                />
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:id="@+id/spinner_xarid"
+                android:visibility="gone"
+                />
+
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                />
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
